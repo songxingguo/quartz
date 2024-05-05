@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>🪴 Quartz 4.0</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>最近的10条笔记 on 🪴 Quartz 4.0</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>SyntaxHighlighting</title>
+    <link>https://quartz.jzhao.xyz/plugins/SyntaxHighlighting</link>
+    <guid>https://quartz.jzhao.xyz/plugins/SyntaxHighlighting</guid>
+    <description>该插件用于为Quartz中的代码块添加语法高亮显示。参见 syntax highlighting了解更多信息。 Note 有关如何添加、删除或配置插件的信息，请参阅配置页。 此插件接受以下配置选项： theme: 一个与Shikiji捆绑在一起的主题的独立id。一个用于亮模式，一个用于暗模式。默认为theme: { ...</description>
+    <pubDate>Sun, 05 May 2024 14:13:04 GMT</pubDate>
+  </item><item>
+    <title>TableOfContents</title>
+    <link>https://quartz.jzhao.xyz/plugins/TableOfContents</link>
+    <guid>https://quartz.jzhao.xyz/plugins/TableOfContents</guid>
+    <description>这个插件为Markdown文档生成一个目录（TOC）。参看table of contents了解更多信息。 Note 有关如何添加、删除或配置插件的信息，请参阅配置页。 此插件接受以下配置选项： maxDepth: 限制目录中所列标题的深度，范围从1（仅限顶级标题）到6（所有标题级别）。默认值为3。 minEntries: ...</description>
+    <pubDate>Sun, 05 May 2024 14:13:04 GMT</pubDate>
+  </item><item>
+    <title>TagPage</title>
+    <link>https://quartz.jzhao.xyz/plugins/TagPage</link>
+    <guid>https://quartz.jzhao.xyz/plugins/TagPage</guid>
+    <description>这个插件为内容中使用的每个标签发出专用页面。参看folder and tag listings了解更多信息。 Note 有关如何添加、删除或配置插件的信息，请参阅配置页。 此插件没有配置选项。 这些页面是使用quarter.layouts.ts中的defaultListPageLayout显示。对于内容，将使用TagContent组件。如果要修改布局，必须直接编辑（quarter/components/pages/TagContent.tsx）。 ...</description>
+    <pubDate>Sun, 05 May 2024 14:13:04 GMT</pubDate>
+  </item><item>
+    <title>插件列表</title>
+    <link>https://quartz.jzhao.xyz/plugins/</link>
+    <guid>https://quartz.jzhao.xyz/plugins/</guid>
+    <description></description>
+    <pubDate>Sun, 05 May 2024 14:13:04 GMT</pubDate>
+  </item><item>
+    <title>设置GitHub仓库</title>
+    <link>https://quartz.jzhao.xyz/setting-up-your-GitHub-repository</link>
+    <guid>https://quartz.jzhao.xyz/setting-up-your-GitHub-repository</guid>
+    <description>First, make sure you have Quartz cloned and setup locally. 首先，确保您有Quartz克隆并在本地安装。 然后，在GitHub.com上创建一个新的存储库。不要使用“README”、许可证或“gitignore”文件初始化新存储库。 在GitHub.com的“Quick Setup”页面上的存储库顶部，单击clipboard复制远程仓库地址。 在您选择的终端中，导航到Quartz文件夹的根目录。然后，运行以下命令，将REMOTE-URL替换为您刚刚从上一步复制的URL。 # list all the repositories that are tracked git remote -v # if the origin doesn&#039;t match your own repository, set your repository as the origin git remote set-url origin REMOTE-URL # if you don&#039;t have upstream as a remote, add it so updates work git remote add upstream github.com/jackyzha0/quartz.git 然后，您可以同步内容以将其上传到仓库。这是一个助手命令，用于将内容初始推送到存储库。 npx quartz sync --no-pull fatal: --[no-]autostash option is only valid with --rebase 你可能有一个过时的git.版本。更新git.应该可以解决此问题。 在未来的更新中，每次您想将更新推送到存储库时，只需运行 npx quartz sync 即可。 Flags and options 有关完整帮助选项，您可以运行npx-quarter-sync--help。 其中大多数都有合理的默认值，但如果您有自定义设置，则可以覆盖它们： -d or --directory: content内容文件夹。默认是`content“ -v or --verbose: 打印出额外的日志信息 --commit or --no-commit: 是否对您的更改进行 git 提交 --push or --no-push: 是否将更新推送到Quartz的GitHub分支 --pull or --no-pull: 在推送之前，是否尝试从你的GitHub（即从其他设备）获取任何更新 .</description>
+    <pubDate>Sun, 05 May 2024 14:13:04 GMT</pubDate>
+  </item><item>
+    <title>Quartz 案例</title>
+    <link>https://quartz.jzhao.xyz/showcase</link>
+    <guid>https://quartz.jzhao.xyz/showcase</guid>
+    <description>想看看Quartz能做什么吗？以下是一些很酷的社区花园： Quartz Documentation (this site!) Jacky Zhao’s Garden Socratica Toolbox oldwinter の数字花园 Aaron Pham’s Garden The Quantum Garden Abhijeet’s Math ...</description>
+    <pubDate>Sun, 05 May 2024 14:13:04 GMT</pubDate>
+  </item><item>
+    <title>组件</title>
+    <link>https://quartz.jzhao.xyz/tags/component</link>
+    <guid>https://quartz.jzhao.xyz/tags/component</guid>
+    <description>想要创建自己的自定义组件吗？有关详细信息，请查看有关创建组件的高级指南。.</description>
+    <pubDate>Sun, 05 May 2024 14:13:04 GMT</pubDate>
+  </item><item>
+    <title>插件</title>
+    <link>https://quartz.jzhao.xyz/tags/plugin</link>
+    <guid>https://quartz.jzhao.xyz/tags/plugin</guid>
+    <description></description>
+    <pubDate>Sun, 05 May 2024 14:13:04 GMT</pubDate>
+  </item><item>
+    <title>升级 Quartz</title>
+    <link>https://quartz.jzhao.xyz/upgrading</link>
+    <guid>https://quartz.jzhao.xyz/upgrading</guid>
+    <description>...</description>
+    <pubDate>Sun, 05 May 2024 14:13:04 GMT</pubDate>
+  </item><item>
+    <title>深色模式</title>
+    <link>https://quartz.jzhao.xyz/features/darkmode</link>
+    <guid>https://quartz.jzhao.xyz/features/darkmode</guid>
+    <description>Quartz支持开箱即用的深色模式，尊重用户的主题偏好。暗模式开关的任何未来手动切换都将保存在浏览器的本地存储中，以便在未来的页面加载中保持不变。 自定义 删除暗模式：从quartery.layout.ts中删除Component.Darkmode()。 组件: quartz/components/Darkmode.tsx ...</description>
+    <pubDate>Sun, 05 May 2024 14:13:04 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
